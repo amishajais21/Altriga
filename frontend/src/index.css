@@ -1,0 +1,59 @@
+main {
+  min-height: 80vh;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card h4 {
+  padding: 1rem 0;
+}
+
+.brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #00021f;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* background: -webkit-linear-gradient(#00021f, #e72e5d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.btn.btn-block {
+  font-size: 20px;
+  width: 100%;
+}
+.btn.btn-block i {
+  padding-right: 15px;
+}
+
+/* crousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: white;
+}
+
+.carousel img {
+  height: 350px;
+  padding: 30px;
+  margin: 40px;
+  position: relative;
+  left: 39%;
+  /* border-radius: 50%; */
+}
+
+.carousel a {
+  margin: 0 auto;
+}
